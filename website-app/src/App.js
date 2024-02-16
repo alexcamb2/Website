@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./NavBar"
+import Pricing from "./Pages/Pricing"
+import Home from "./Pages/Home"
+import About from "./Pages/About"
+import {Route, Routes} from "react-router-dom"
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Marco Bad At fortnite
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+let component
 
-export default App;
+  return (
+    <>
+    <NavBar />
+    <div className="container">
+      <Routes>
+        <Route path ='/' element={<Home />} />
+        <Route path ='/pricing' element={<Pricing />} />
+        <Route path ='/about' element={<About />} />
+      </Routes>
+    </div>
+    </>
+  )
+}
+export default App
