@@ -43,11 +43,11 @@ body{
 }
 
 .nav li.active{
-    background-color: blueviolet;
+    background-color: rgb(72, 69, 75);
 }
 
 
 .nav li:hover{
-    background-color: chartreuse;
+    background-color: rgb(71, 31, 99);
 }
 
