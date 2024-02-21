@@ -7,22 +7,22 @@ body{
 }
 
 .container{
-    margin: 1rem;
+    margin: 5rem;
     text-align: center;
 }
 
 .nav{
-    background-color: aqua;
+    background-color: rgb(43, 18, 68);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
+    gap: 6rem;
+    padding: 0.1rem;
 }
 
 .site-title{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .nav ul{
@@ -30,7 +30,8 @@ body{
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    font-size: 2rem;
 }
 
 .nav a{
@@ -43,7 +44,7 @@ body{
 }
 
 .nav li.active{
-    background-color: rgb(72, 69, 75);
+    background-color: rgb(43, 18, 68);
 }
 
 
