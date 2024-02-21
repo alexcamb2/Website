@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    margin: 6rem;
+    margin: 2rem;
     text-align: center;
 }
 
@@ -19,13 +19,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;
-    padding: 0.1rem;
+    gap: 2rem;
+    padding: 0rem;
     font-size: 1.45rem;
 }
 
-.site-title{
-    font-size: 4rem;
+.About{
+    font-size: 2rem;
+    align-items: center;
 }
 
 .nav ul{
