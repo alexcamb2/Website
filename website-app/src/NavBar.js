@@ -1,9 +1,10 @@
 import {Link, useMatch, useResolvedPath } from "react-router-dom"
+import logo from './images/Chameleon.png'
 
 export default function NavBar(){
     const path = window.location.pathname
     return <nav className="nav">
-        <Link to="/" className="site-title">Site Name</Link>
+        <img src = {logo}/>
         <ul>
             <CustomLink to = "/pricing">Pricing</CustomLink>
             <CustomLink to = "/about">Pricing</CustomLink>
