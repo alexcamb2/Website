@@ -7,18 +7,21 @@ body{
 }
 
 .container{
-    margin: 5rem;
+    margin: 6rem;
     text-align: center;
 }
 
 .nav{
-    background-color: rgb(43, 18, 68);
-    color: white;
+    /* Background color for navbar Text*/
+    background-color: rgb(188, 150, 225);
+    /* Color for navbar Text*/
+    color:  rgb(237, 201, 200);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
     padding: 0.1rem;
+    font-size: 1.45rem;
 }
 
 .site-title{
@@ -31,7 +34,6 @@ body{
     list-style: none;
     display: flex;
     gap: 3rem;
-    font-size: 2rem;
 }
 
 .nav a{
@@ -43,9 +45,6 @@ body{
     padding: .25rem;
 }
 
-.nav li.active{
-    background-color: rgb(43, 18, 68);
-}
 
 
 .nav li:hover{

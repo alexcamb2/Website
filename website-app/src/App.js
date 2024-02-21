@@ -1,22 +1,21 @@
 import NavBar from "./NavBar"
-import Pricing from "./Pages/Pricing"
+import Experience from "./Pages/Experience"
 import Home from "./Pages/Home"
-import About from "./Pages/About"
+import Projects from "./Pages/Projects"
 import {Route, Routes} from "react-router-dom"
 
 
 
 function App() {
 let component
-
   return (
     <>
     <NavBar />
     <div className="container">
       <Routes>
         <Route path ='/' element={<Home />} />
-        <Route path ='/pricing' element={<Pricing />} />
-        <Route path ='/about' element={<About />} />
+        <Route path ='/Experience' element={<Experience />} />
+        <Route path ='/Prrojects' element={<Projects />} />
       </Routes>
     </div>
     </>
