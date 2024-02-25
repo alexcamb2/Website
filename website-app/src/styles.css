@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    margin: 2rem;
+    margin: 6rem;
     text-align: center;
     color: aliceblue;
 }
@@ -21,14 +21,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 0rem;
+    gap: 6rem;
+    padding: 0.1rem;
     font-size: 1.45rem;
 }
 
-.About{
-    font-size: 2rem;
-    align-items: center;
+.site-title{
+    font-size: 4rem;
 }
 
 .nav ul{

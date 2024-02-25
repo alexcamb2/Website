@@ -2,17 +2,14 @@ import {Link, useMatch, useResolvedPath } from "react-router-dom"
 import logo from './images/Chameleon.png'
 
 export default function NavBar(){
-    return  (
-        <nav className="nav">
-            <Link to = "/" className="About"> 
-            <img src = {logo} width={65} height={65} alt="Logo"/>
-            </Link>
-        <ul>    
+    const path = window.location.pathname
+    return <nav className="nav">
+        <img src = {logo} width={65} height={65}/>
+        <ul>
             <CustomLink to = "/Experience">Experience</CustomLink>
             <CustomLink to = "/Projects">Projects</CustomLink>
-        </ul>
+        </ul>s
     </nav>
-    )
 }
 
 function CustomLink({to, children, ...props}) {
