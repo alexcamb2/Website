@@ -4,11 +4,13 @@ import logo from './images/Chameleon.png'
 export default function NavBar(){
     const path = window.location.pathname
     return <nav className="nav">
-        <img src = {logo} width={65} height={65}/>
+        <a href="/">
+            <img src={logo} width={65} height={65} />
+        </a>
         <ul>
             <CustomLink to = "/Experience">Experience</CustomLink>
             <CustomLink to = "/Projects">Projects</CustomLink>
-        </ul>s
+        </ul>
     </nav>
 }
 

@@ -14,7 +14,7 @@ let component
       <Routes>
         <Route path ='/' element={<Home />} />
         <Route path ='/Experience' element={<Experience />} />
-        <Route path ='/Prrojects' element={<Projects />} />
+        <Route path ='/Projects' element={<Projects />} />
       </Routes>
     </div>
     </>
