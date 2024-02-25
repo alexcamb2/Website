@@ -5,7 +5,6 @@ import Projects from "./Pages/Projects"
 import {Route, Routes} from "react-router-dom"
 
 
-
 function App() {
 let component
   return (

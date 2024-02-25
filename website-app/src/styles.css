@@ -4,18 +4,20 @@
 
 body{
     margin: 0;
+    background-color: rgb(71, 71, 71);
 }
 
 .container{
     margin: 2rem;
     text-align: center;
+    color: aliceblue;
 }
 
 .nav{
     /* Background color for navbar Text*/
-    background-color: rgb(188, 150, 225);
+    background-color: rgb(107, 107, 107);
     /* Color for navbar Text*/
-    color:  rgb(237, 201, 200);
+    color:  rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,9 +48,9 @@ body{
     padding: .25rem;
 }
 
-
-
 .nav li:hover{
     background-color: rgb(71, 31, 99);
 }
+
+
 
