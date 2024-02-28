@@ -1,68 +1,92 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: PressStart;
-    src: url(../public/Fonts/PressStart2P-Regular.ttf);
+  font-family: PressStart;
+  src: url(../public/Fonts/PressStart2P-Regular.ttf);
 }
 .PressStart {
-    font-family: PressStart;
-    text-align: center;
+  font-family: PressStart;
+  text-align: center;
 }
 
 .Name {
-    font-size: 0.5rem;
-    color: #abcbff;
-    margin-bottom: 1rem; /* Adjust as needed */
+  font-size: 0.5rem;
+  color: #abcbff;
+  margin-bottom: 1rem; /* Adjust as needed */
+}
+.BottomContact{
+  color: aquamarine;
+}
+body {
+  margin: 0;
+  background-color: rgb(107, 107, 107);
 }
 
-body{
-    margin: 0;
-    background-color: rgb(107, 107, 107);
+.container {
+  margin: 6rem;
+  text-align: center;
+  color: aliceblue;
+  padding: 2rem;
 }
 
-.container{
-    margin: 6rem;
-    text-align: center;
-    color: aliceblue;
-    padding: 2rem;
+.nav {
+  /* Background color for navbar Text*/
+  background-color: rgb(107, 107, 107);
+  /* Color for navbar Text*/
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding: 0.1rem;
+  font-size: 1.45rem;
 }
 
-.nav{
-    /* Background color for navbar Text*/
-    background-color: rgb(107, 107, 107);
-    /* Color for navbar Text*/
-    color:  rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6rem;
-    padding: 0.1rem;
-    font-size: 1.45rem;
+.site-title {
+  font-size: 4rem;
 }
 
-.site-title{
-    font-size: 4rem;
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.contact-info-container {
+  margin-top: 100px; /* Adjust the value as needed */
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
 }
 
-.nav ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 3rem;
+.contact-box {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: bottom;
 }
 
-.nav a{
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: stretch;
-    padding: .25rem;
+.contact-box h2 {
+  margin-top: 1;
 }
 
-.nav li:hover{
-    background-color: rgb(71, 31, 99);
+.contact-box p {
+  margin-bottom: 1;
 }
 
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  padding: 0.25rem;
+}
+
+.nav li:hover {
+  background-color: rgb(71, 31, 99);
+}
